@@ -84,7 +84,7 @@ Numerically supported. Not proved. Requires independence assumptions.
 collatz-prime-survival/
 ├── README.md
 ├── paper/
-│   └── prime_survival_affine_collatz_v20.html   — full paper
+│   └── prime_survival_affine_collatz_v20.pdf   — full paper
 └── LICENSE
 ```
 
