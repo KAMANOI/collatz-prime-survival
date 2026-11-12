@@ -8,6 +8,16 @@ A study of prime survival under the general affine map φ_{a,b,c}(p) = (ap+b)/c,
 
 ---
 
+## Erratum (2026-11-12)
+
+- **"c-B exits in at most 2 steps" (Section 2, Lemma 1) is false.** Example: 95 -> 143 -> 215 -> 323 -> 485 stays composite and in pattern c for three steps. The correct statement is simpler and covers every case: since (3n+1)/2 + 1 = 3(n+1)/2, any n = 3 (mod 4) leaves pattern c after exactly v2(n+1) - 1 steps.
+- **An infinite chain under p -> (3p+1)/2 does not exist**, for the same reason. The item "infinitude of the chain (Bateman-Horn level)" in the list of open problems should read: existence of arbitrarily long finite prime chains, which for each fixed length would follow from Dickson's conjecture.
+- Unaffected: monotone growth, admissibility, the rho(q) classification, the general admissibility theorem, and the numerical sections.
+
+The PDF in `paper/` is the original, uncorrected version.
+
+---
+
 ## Overview
 
 This paper develops a rigorous local obstruction theory for prime survival under affine Collatz-type maps, together with sieve heuristics and numerical verification.
@@ -27,7 +37,7 @@ The central results are:
 
 | Result | Method | Status |
 |--------|--------|--------|
-| c-A / c-B finite escape (Collatz) | Congruence | ✓ proved |
+| c-A / c-B finite escape (Collatz) | Congruence | corrected: exit after exactly v2(n+1) − 1 steps, see Erratum |
 | Admissibility (Collatz) | Congruence | ✓ proved |
 | Monotone growth of φ-chains | Direct computation | ✓ proved |
 | ρ(q) = 1 (Collatz, q ≥ 5) | Congruence | ✓ proved |
